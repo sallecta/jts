@@ -58,5 +58,8 @@
 			</fieldset>
 		</fields>
 	</config>
-
+	<changelogurl>https://raw.githubusercontent.com/sallecta/jtsfest/main/Updates/change_log.xml</changelogurl>
+	<updateservers>
+		<server type="extension" priority="1" name="jtsfest update server">https://raw.githubusercontent.com/sallecta/jtsfest/main/Updates/updt.xml</server>
+	</updateservers>
 </extension>
