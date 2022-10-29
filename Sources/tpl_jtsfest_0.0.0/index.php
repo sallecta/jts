@@ -2,9 +2,9 @@
 defined('_JEXEC') or die;
 
 
-//var_export( $this->params['jstfest_params']->params->debug_messages_site);
+//var_export( $this->params['jtsfest_params']->params->debug_messages_site);
 
-if ($this->params['jstfest_params']->params->debug_messages_site )
+if ($this->params['jtsfest_params']->params->debug_messages_site )
 {
 	define("JSALLECTA_DEBUG_MESSAGES_SITE", true);
 }
@@ -17,7 +17,7 @@ else
 include_once JPATH_THEMES."/jsallecta/code/site.jsll.php";
 
 
-$cfg=jsll::params_to_array($this->params['jstfest_params']);
+$cfg=jsll::params_to_array($this->params['jtsfest_params']);
 
 
 

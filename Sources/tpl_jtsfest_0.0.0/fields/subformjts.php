@@ -14,9 +14,9 @@ use Joomla\CMS\Form\Field\ListField;
 use Joomla\CMS\Form\Field\SubformField;
 use Joomla\Registry\Registry;
 
-class JFormFieldSubformjtsfest extends SubformField
+class JFormFieldSubformjts extends SubformField
 {
-	protected $type = 'subformjtsfest';
+	protected $type = 'subformjts';
 	
 	private static $instance_counter = 0;
 	private static $results = null;

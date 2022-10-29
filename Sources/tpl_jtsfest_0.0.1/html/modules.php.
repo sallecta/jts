@@ -1,6 +1,0 @@
-<?php
-  function modChrome_debug( $module, &$params, &$attribs )
-  {
-    /* chromed Module output goes here */
-  }
-?>

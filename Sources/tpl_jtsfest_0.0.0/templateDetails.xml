@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" client="site">
-	<name>jstfest</name>
+	<name>jtsfest</name>
 	<version>0.0.0</version>
 	<creationDate>October 2022</creationDate>
 	<author>Alexander Gribkov, Joomla! Project</author>
 	<authorEmail>sallecta@inbox.ru</authorEmail>
 	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
-	<description>JSALLECTA_DESCRIPTION</description>
+	<description>JTSFEST_DESCR</description>
 	<inheritable>1</inheritable>
 	<files>
 		<filename>component.php</filename>
@@ -45,17 +45,15 @@
 		<position>footer</position>
 		<position>debug</position>
 	</positions>
-<!--
-	<languages folder="language">
-		<language tag="en-GB">en-GB/tpl_jstfest.ini</language>
-		<language tag="en-GB">en-GB/tpl_jstfest.sys.ini</language>
+	<languages folder="language" destination="templates/site/jstfest" >
+		<language tag="en-GB">en-GB/tpl_jtsfest.ini</language>
+		<language tag="en-GB">en-GB/tpl_jtsfest.sys.ini</language>
 	</languages>
--->
 	<config>
 		<fields name="params">
-			<fieldset name="advanced" addfieldpath="/templates/jstfest/fields">
+			<fieldset name="advanced" addfieldpath="/templates/jtsfest/">
 
-				<field name="jstfest_params" type="subformjstfest"><form/></field>
+				<field name="jtsfest_params" type="subformjts"><form/></field>
 				
 			</fieldset>
 		</fields>
