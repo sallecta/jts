@@ -10,6 +10,9 @@ release_file_path="$cfg_path_parent/Releases/$release_file_name"
 cd "$cfg_path_parent"
 fn_stoponerror $BASH_SOURCE $LINENO $?
 
+ls "$cfg_path_parent/Sources/$cfg_app_dir_src_name" > /dev/null >&1
+fn_stoponerror $BASH_SOURCE $LINENO $?
+
 $cfg_path_cmd/version_update.sh
 fn_stoponerror $BASH_SOURCE $LINENO $?
 

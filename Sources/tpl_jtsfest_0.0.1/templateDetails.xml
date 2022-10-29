@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" client="site">
 	<name>jtsfest</name>
-	<version>0.0.0</version>
+	<version>0.0.1</version>
 	<creationDate>October 2022</creationDate>
 	<author>Alexander Gribkov, Joomla! Project</author>
 	<authorEmail>sallecta@inbox.ru</authorEmail>
@@ -19,14 +19,8 @@
 		<folder>code</folder>
 		<folder>config_shared</folder>
 		<folder>fields</folder>
+		<folder>language</folder>
 	</files>
-<!--
-	<media destination="templates/site/jstfest" folder="media_templates_site_jstfest">
-		<folder>js</folder>
-		<folder>css</folder>
-		<folder>images</folder>
-	</media>
--->
 	<positions>
 		<position>topbar</position>
 		<position>below-top</position>
@@ -45,10 +39,6 @@
 		<position>footer</position>
 		<position>debug</position>
 	</positions>
-	<languages folder="language" destination="templates/site/jstfest">
-		<language tag="en-GB">en-GB/tpl_jtsfest.ini</language>
-		<language tag="en-GB">en-GB/tpl_jtsfest.sys.ini</language>
-	</languages>
 	<config>
 		<fields name="params">
 			<fieldset name="advanced" addfieldpath="/templates/jtsfest/">

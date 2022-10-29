@@ -21,6 +21,7 @@
 		<version>0.0.1</version>
 		<note>
 			<item>Development version</item>
+			<item>Language inside extension's dir</item>
 		</note>
 	</changelog>
 </changelogs>
