@@ -1,0 +1,26 @@
+<changelogs>
+	<changelog>
+		<type>template</type>
+		<element>jtsfest</element>
+		<version>0.0.3</version>
+		<note>
+			<item>Development version</item>
+		</note>
+	</changelog>
+	<changelog>
+		<type>template</type>
+		<element>jtsfest</element>
+		<version>0.0.2</version>
+		<note>
+			<item>Development version</item>
+		</note>
+	</changelog>
+	<changelog>
+		<type>template</type>
+		<element>jtsfest</element>
+		<version>0.0.1</version>
+		<note>
+			<item>Development version</item>
+		</note>
+	</changelog>
+</changelogs>

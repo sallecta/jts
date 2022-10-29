@@ -1,0 +1,144 @@
+/* Based on Pricing Table (a layout example that shows off a responsive pricing table) by pure.css
+ * 
+ * https://github.com/pure-css/pure/tree/master/site/static/layouts/p1ricing
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+/*
+ https://www.quackit.com/html/html_editors/scratchpad/?example=/css/flexbox/tutorial/nested_flex_containers_example_2
+*/
+
+:root {
+  --jsll_back_top: url("template.css.no.jsll_back_top.jpg"); 
+  --jsll_height_header: 40vh; 
+  --jsll_color_tmenu: #fbf1f1;;
+  --jsll_color_link: black;
+  --jsll_border_radius: 2px;
+}
+
+body
+{
+	display:flex;
+	flex-direction:column;
+}
+
+header {
+  background: var(--jsll_color_primary);
+ 	background-color:#d0c6bc;
+	background-image:var(--jsll_back_top);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+
+header
+{
+	display:flex;
+	flex-direction:column;
+	height:var(--jsll_height_header);
+
+}
+header > div.jsll_row
+{
+	display:flex;
+	background:transparent;
+	height:40vh;
+
+}
+
+header > div.jsll_row
+{
+	display:flex;
+	background:transparent;
+	height:40vh;
+
+}
+
+
+/* menu */
+/*
+ * https://dev.to/atulcodex/dropdown-menu-using-css-flexbox-28j8
+ * https://dev.to/atulcodex
+ * Atul Prajapati Dropdown menu using CSS Flexbox 
+ * */
+header > div.jsll_row > div.menu
+{
+  display:flex;
+  flex-grow: 1;
+  background: transparent;
+  border-radius: var(--jsll_border_radius);
+}
+
+header > div.jsll_row > div.menu ul
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header > div.jsll_row > div.menu ul li
+{
+  list-style: none;
+  padding: 4px;
+  position: relative;
+  transition: 0.5s;
+  display: block;
+}
+
+header > div.jsll_row > div.menu ul li a
+{
+  color: var(--jsll_color_tmenu);
+  text-decoration: none;
+  padding: 5px 10px;;
+}
+
+header > div.jsll_row > div.menu .active::after
+{
+  content:"";color:#0000002e; 
+  position:absolute;display:block;width:30%;left:35%;
+  padding-top:1px;height:2px;
+  border:1px solid var(--jsll_color_tmenu);
+  border-radius: var(--jsll_border_radius);
+}
+header > div.jsll_row > div.menu a.active:hover::after
+{
+  display:none;
+}
+
+header > div.jsll_row > div.menu ul li a:hover
+{
+  
+  background: #2b2b2b4f;color:white;
+  border-radius: var(--jsll_border_radius);
+}
+
+header > div.jsll_row > div.menu ul li ul
+{
+  display: none;  
+}
+
+header > div.jsll_row > div.menu ul li:hover ul
+{
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  background: #404040b0;
+  border-radius: var(--jsll_border_radius);
+  width: max-content;
+  padding: 10px 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 20px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/* end menu */
+
+/* top header first row*/
+header > div.jsll_row:first-child {
+    border-bottom: 1px solid #ffffff4a;
+	background: rgba(255,255,255,0.5);
+	backdrop-filter: blur(8px);
+	border-radius: var(--jsll_border_radius);
+}
+
+/* end top header girst row*/

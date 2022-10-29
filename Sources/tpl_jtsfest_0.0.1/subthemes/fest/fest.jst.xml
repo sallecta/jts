@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field
+					name="brand"
+					type="radio"
+					label="SBTH_BRAND_LABEL"
+					default="1"
+					layout="joomla.form.field.radio.switcher"
+					filter="boolean"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="logoFile"
+					type="media"
+					default=""
+					label="SBTH_LOGO_LABEL"
+					showon="brand:1"
+				/>
+				
+				<field
+					name="factoryLogofile"
+					type="radio"
+					label="SBTH_FACTORYLOGO"
+					description="SBTH_FACTORYLOGO_DESCR"
+					default="1"
+					layout="joomla.form.field.radio.switcher"
+					filter="boolean"
+					showon="brand:1"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="siteTitle"
+					type="text"
+					default=""
+					label="SBTH_TITLE"
+					filter="string"
+					showon="brand:1"
+				/>
+
+				<field
+					name="siteDescription"
+					type="text"
+					default=""
+					label="SBTH_TAGLINE_LABEL"
+					description="SBTH_TAGLINE_DESC"
+					filter="string"
+					showon="brand:1"
+				/>
+
+				<field
+					name="useFontScheme"
+					type="groupedlist"
+					label="SBTH_FONT_LABEL"
+					default="0"
+					>
+					<option value="0">JNONE</option>
+					<group label="SBTH_FONT_GROUP_LOCAL">
+						<option value="media/templates/site/cassiopeia/css/global/fonts-local_roboto.css">Roboto (local)</option>
+					</group>
+					<group label="SBTH_FONT_GROUP_WEB">
+						<option value="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;700&amp;display=swap">Fira Sans (web)</option>
+						<option value="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;700&amp;family=Roboto:wght@100;300;400;700&amp;display=swap">Roboto + Noto Sans (web)</option>
+					</group>
+				</field>
+
+				<field
+					name="noteFontScheme"
+					type="note"
+					description="SBTH_FONT_NOTE_TEXT"
+					class="alert alert-warning"
+				/>
+
+				<field
+					name="colorName"
+					type="filelist"
+					label="SBTH_COLOR_NAME_LABEL"
+					default="colors_standard"
+					fileFilter="^custom.+[^min]\.css$"
+					exclude="^colors.+"
+					stripext="true"
+					hide_none="true"
+					hide_default="true"
+					directory="media/templates/site/cassiopeia/css/global/"
+					validate="options"
+					>
+					<option value="colors_standard">SBTH_COLOR_NAME_STANDARD</option>
+					<option value="colors_alternative">SBTH_COLOR_NAME_ALTERNATIVE</option>
+					<option value="colors_aqualine">SBTH_COLOR_NAME_ALTERNATIVE</option>
+				</field>
+
+				<field
+					name="fluidContainer"
+					type="radio"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					label="SBTH_FLUID_LABEL"
+					>
+					<option value="0">SBTH_STATIC</option>
+					<option value="1">SBTH_FLUID</option>
+				</field>
+
+				<field
+					name="stickyHeader"
+					type="radio"
+					label="SBTH_STICKY_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					filter="integer"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="backTop"
+					type="radio"
+					label="SBTH_BACKTOTOP_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					filter="integer"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+</form>
