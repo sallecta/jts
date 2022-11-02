@@ -1,0 +1,15 @@
+/*
+Pure CSS Cross/Close Icon,
+Johan 
+https://codepen.io/brissmyr/pen/nLmreZ?editors=1111
+https://codepen.io/brissmyr
+*/
+.jsll_close {
+	display:block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background:red;
+  cursor:pointer;
+}
+/*element.remove*/

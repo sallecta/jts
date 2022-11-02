@@ -1,0 +1,18 @@
+[
+    "setup",
+    "loadSubForm",
+    "filter",
+    "__get",
+    "__set",
+    "__construct",
+    "setForm",
+    "setValue",
+    "getAttribute",
+    "getDataAttributes",
+    "renderDataAttributes",
+    "render",
+    "renderField",
+    "validate",
+    "postProcess",
+    "setDatabase"
+]

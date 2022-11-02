@@ -1,0 +1,14 @@
+{
+
+    "jts_params": {
+        "subtheme": "0fest",
+        "subthemes": "[\"0fest\",\"fest\"]",
+        "params": {
+            "dev_opts": true,
+            "debug_messages": false,
+            "debug_messages_site": false,
+            "subthemes_rescan": true
+        }
+    }
+
+}

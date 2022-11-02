@@ -4,7 +4,7 @@ cfg_path_cmd="$path"
 
 cfg_app_name="jtsfest"
 
-cfg_app_version="0.0.1"
+cfg_app_version="0.0.2"
 
 cfg_app_dir_src_name="tpl_""$cfg_app_name""_$cfg_app_version"
 

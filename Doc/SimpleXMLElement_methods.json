@@ -1,0 +1,25 @@
+[
+
+    "xpath",
+    "registerXPathNamespace",
+    "asXML",
+    "saveXML",
+    "getNamespaces",
+    "getDocNamespaces",
+    "children",
+    "attributes",
+    "__construct",
+    "addChild",
+    "addAttribute",
+    "getName",
+    "__toString",
+    "count",
+    "rewind",
+    "valid",
+    "current",
+    "key",
+    "next",
+    "hasChildren",
+    "getChildren"
+
+]

@@ -6,6 +6,23 @@
 		<type>template</type>
 		<element>jtsfest</element>
 		<client>site</client>
+		<version>0.0.2</version>
+		<changelogurl>https://raw.githubusercontent.com/sallecta/jtsfest/main/Updates/change_log.xml</changelogurl>
+		<infourl title="Release notes">https://htmlpreview.github.io/?https://github.com/sallecta/jtsfest/blob/main/Releases/releases.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/sallecta/jtsfest/raw/main/Releases/tpl_jtsfest_0.0.2.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<targetPlatform name="joomla" version="4" />
+	</update>
+	<update>
+		<name>Jts Fest (jtsfest)</name>
+		<description>Template</description>
+		<type>template</type>
+		<element>jtsfest</element>
+		<client>site</client>
 		<version>0.0.1</version>
 		<changelogurl>https://raw.githubusercontent.com/sallecta/jtsfest/main/Updates/change_log.xml</changelogurl>
 		<infourl title="Release notes">https://htmlpreview.github.io/?https://github.com/sallecta/jtsfest/blob/main/Releases/tpl_jtsfest_0.0.0.html</infourl>
